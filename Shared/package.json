@@ -1,0 +1,38 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "Shared Models and Utilities for Confirmed",
+  "private": "true",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/confirmedcode/Server-Shared.git"
+  },
+  "author": "Confirmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/confirmedcode/Server-Shared/issues"
+  },
+  "homepage": "https://github.com/confirmedcode/Server-Shared#readme",
+  "dependencies": {
+    "aws-param-env": "^1.2.0",
+    "aws-sdk": "^2.716.0",
+    "bcrypt": "^5.0.1",
+    "express-rate-limit": "^3.5.3",
+    "fs-extra": "^7.0.1",
+    "handlebars": "^4.7.7",
+    "klaw": "^3.0.0",
+    "moment": "^2.29.2",
+    "pg": "^7.18.2",
+    "rate-limit-redis": "^2.1.0",
+    "redis": "^3.0.0",
+    "redis-mock": "^0.47.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "stripe": "^6.36.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {}
+}
